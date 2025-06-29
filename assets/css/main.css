@@ -33,6 +33,32 @@ body {
 	line-height: 1;
 }
 
+.posts img {
+  width: 100%;
+  height: 200px; /* atau 250px, sesuaikan selera */
+  object-fit: cover;
+  border-radius: 0.5rem; /* opsional: buat sudut rounded */
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+.centered article {
+  max-width: 500px;
+  width: 100%;
+}
+
+.posts.single-center {
+  display: flex;
+  justify-content: center;
+}
+
+.posts.single-center article {
+  width: 100%;
+  max-width: 600px; /* atau ukuran sesuai selera */
+}
+
 ol, ul {
 	list-style: none;
 }
